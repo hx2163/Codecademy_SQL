@@ -22,3 +22,4 @@ Codeflix requires a minimum subscription length of 31 days, so a user can never 
  FROM subscriptions
  LIMIT 10;
  ```
+![churn01](images/churn01.png)
