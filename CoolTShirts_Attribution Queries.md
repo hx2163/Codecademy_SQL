@@ -164,7 +164,7 @@ WITH last_touch AS (
     AND lt.last_touch_at = pv.timestamp
 )
 SELECT utm_campaign,
-COUNT(last_touch_at)
+       COUNT(last_touch_at)
 FROM lt_attr
 GROUP BY 1
 order by 2 desc
