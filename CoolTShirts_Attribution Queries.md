@@ -143,3 +143,31 @@ GROUP BY 1, 2
 ORDER BY 3 DESC;
 ```
 ![atrib08](images/atrib08.png)
+
+7. CoolTShirts can re-invest in 5 campaigns. Given your findings in the project, which should they pick and why?
+   
+```mysql
+WITH last_touch AS (
+    SELECT user_id,
+        MAX(timestamp) as last_touch_at
+    FROM page_visits
+    WHERE page_name = '4 - purchase'
+    GROUP BY user_id),
+    lt_attr AS (
+  SELECT lt.user_id,
+         lt.last_touch_at,
+         pv.utm_source,
+         pv.utm_campaign
+  FROM last_touch lt
+  JOIN page_visits pv
+    ON lt.user_id = pv.user_id
+    AND lt.last_touch_at = pv.timestamp
+)
+SELECT utm_campaign,
+COUNT(last_touch_at)
+FROM lt_attr
+GROUP BY 1
+order by 2 desc
+limit 5;
+```
+![atrib09](images/atrib09.png)
