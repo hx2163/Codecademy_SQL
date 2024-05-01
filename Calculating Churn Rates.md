@@ -11,3 +11,14 @@ The dataset provided to you contains one SQL table, subscriptions. Within the ta
 - segment - this identifies which segment the subscription owner belongs to
 
 Codeflix requires a minimum subscription length of 31 days, so a user can never start and end their subscription in the same month.
+
+### Get familiar with the data
+
+
+1. Take a look at the first 100 rows of data in the subscriptions table. How many different segments do you see?
+
+```mysql
+ SELECT *
+ FROM subscriptions
+ LIMIT 10;
+ ```
