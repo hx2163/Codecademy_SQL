@@ -172,3 +172,5 @@ order by 2 desc
 limit 5;
 ```
 ![atrib09](images/atrib09.png)
+
+The recommendation for CoolTShirts would be to continue investing in the campaigns with the highest number of last touches leading to purchases, particularly focusing on "Weekly-Newsletter" and "Retargetting-Ad" due to their high conversion rates.
