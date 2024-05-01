@@ -81,8 +81,7 @@ LIMIT 10;
 ```
 ![churn04](images/churn04.png)
 
-5.
-Create a temporary table, status, from the cross_join table you created. This table should contain:
+5. Create a temporary table, status, from the cross_join table you created. This table should contain:
 
 - id selected from cross_join
 - month as an alias of first_day
@@ -178,8 +177,7 @@ LIMIT 10;
 ```
 ![churn06](images/churn06.png)
 
-7.
-Create a status_aggregate temporary table that is a SUM of the active and canceled subscriptions for each segment, for each month.
+7. Create a status_aggregate temporary table that is a SUM of the active and canceled subscriptions for each segment, for each month.
 
 The resulting columns should be:
 - sum_active_87
