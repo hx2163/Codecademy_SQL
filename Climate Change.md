@@ -6,4 +6,14 @@ These data will show the average annual temperature for each state – this is t
 For this project, you will be working with one table:
 
 - state_climate
+![cc00](images/cc00.png)
+
+### Understanding the Data
+1.
+Let’s see what our table contains by running the following command:
+
+```msql
+SELECT * 
+FROM state_climate;
+ ```
 ![cc01](images/cc01.png)
