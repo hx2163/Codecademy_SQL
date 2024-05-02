@@ -14,6 +14,7 @@ Let’s see what our table contains by running the following command:
 
 ```msql
 SELECT * 
-FROM state_climate;
+FROM state_climate
+LIMIT 10;
  ```
 ![cc01](images/cc01.png)
