@@ -11,7 +11,7 @@ For this project, you will be working with one table:
 ### Understanding the Data
 1. Let’s see what our table contains by running the following command:
 
-```msql
+```mysql
 SELECT * 
 FROM state_climate
 LIMIT 10;
@@ -25,7 +25,7 @@ Write a query that returns the state, year, tempf or tempc, and running_avg_temp
 
 (The running_avg_temp should use a window function.)
 
-```msql
+```mysql
 SELECT * 
 FROM state_climate
 LIMIT 10;
@@ -39,7 +39,7 @@ Write a query that returns state, year, tempf or tempc, and the lowest temperatu
 
 Are the lowest recorded temps for each state more recent or more historic?
 
-```msql
+```mysql
 SELECT state,
   FIRST_VALUE(tempf) OVER (
       PARTITION BY state
