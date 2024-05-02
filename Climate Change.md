@@ -6,3 +6,4 @@ These data will show the average annual temperature for each state – this is t
 For this project, you will be working with one table:
 
 - state_climate
+![cc01](images/cc01.png)
