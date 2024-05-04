@@ -26,9 +26,14 @@ Write a query that returns the state, year, tempf or tempc, and running_avg_temp
 (The running_avg_temp should use a window function.)
 
 ```mysql
-SELECT * 
+SELECT state, 
+       year, 
+       tempc, 
+       AVG(tempc) OVER(
+          ORDER BY state, year
+       ) AS 'running_avg_temp'
 FROM state_climate
-LIMIT 10;
+LIMIT 5;
  ```
 
 ![cc02](images/cc02.png)
@@ -41,12 +46,32 @@ Are the lowest recorded temps for each state more recent or more historic?
 
 ```mysql
 SELECT state,
-  FIRST_VALUE(tempf) OVER (
-      PARTITION BY state
-      ORDER BY tempf
-    ) running_avg_temp
+       FIRST_VALUE(tempf) OVER (
+          PARTITION BY state
+          ORDER BY tempf
+        ) lowest_temp
 FROM state_climate
-GROUP BY state;
+GROUP BY state
+LIMIT 5;
 ```
+![cc03](images/cc03.png)
+
+4.Like before, write a query that returns state, year, tempf or tempc, except now we will also return the highest temperature (highest_temp) for each state.
+
+Are the highest recorded temps for each state more recent or more historic?
+
+```mysql
+SELECT state,
+       LAST_VALUE(tempf) OVER (
+          PARTITION BY state
+          ORDER BY tempf
+          RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING
+        ) highest_temp
+FROM state_climate
+GROUP BY state
+LIMIT 5;
+```
+![cc04](images/cc04.png)
+
 
 
