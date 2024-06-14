@@ -51,8 +51,6 @@ The following Python libraries were used throughout the certification:
 
 ## Proof of Certification
 
-To verify the certificates, click the image to follow the link.
-
 ![Codecademy Certificate](https://github.com/hx2163/Codecademy_SQL/blob/main/Codecademy%20Certificate.PNG)
 
 ---
