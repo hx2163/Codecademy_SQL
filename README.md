@@ -16,13 +16,15 @@ This repository contains documentation and resources used to complete the certif
 ## Courses
 
 - [Getting Started with SQL](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/analyze-data-sql-get-started-with-sql/modules/analyze-data-sql-learn-manipulation-c4b/cheatsheet)
-- [Writing Basic Queries](#)
-- [Calculating Aggregates](#)
-- [Joining Multiple Tables](#)
-- [Learn How to Use AI for SQL](#)
-- [Going Off-Platform](#)
-- [Analyze Real Data with SQL](#)
-- [Advanced SQL](#)
+- [Writing Basic Queries](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/analyze-data-sql-query-data/modules/analyze-data-sql-learn-queries/cheatsheet)
+- [Calculating Aggregates](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/analyze-data-sql-calculate-and-summarize-data/modules/dspath-sql-aggregates/cheatsheet)
+- [Joining Multiple Tables](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/analyze-data-sql-join-data/modules/analyze-data-sql-learn-joins-c4b/cheatsheet)
+- [Learn How to Use AI for SQL](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/learn-how-to-use-ai-for-sql-adws/modules/learn-how-to-use-ai-for-sql-adws/cheatsheet)
+- [Analyze Real Data with SQL]
+    - [Project:Calcalating Churn Rates](#)
+    - [Project:Attribution Queries](#)
+- [Advanced SQL]
+    - [Project:Climate Change](#)
 
 ## Tools
 
