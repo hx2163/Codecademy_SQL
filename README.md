@@ -20,10 +20,10 @@ This repository contains documentation and resources used to complete the certif
 - [Calculating Aggregates](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/analyze-data-sql-calculate-and-summarize-data/modules/dspath-sql-aggregates/cheatsheet)
 - [Joining Multiple Tables](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/analyze-data-sql-join-data/modules/analyze-data-sql-learn-joins-c4b/cheatsheet)
 - [Learn How to Use AI for SQL](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/learn-how-to-use-ai-for-sql-adws/modules/learn-how-to-use-ai-for-sql-adws/cheatsheet)
-- [Analyze Real Data with SQL]
+- [Analyze Real Data with SQL](https://www.codecademy.com/enrolled/paths/analyze-data-with-sql)
     - [Project:Calcalating Churn Rates](#)
     - [Project:Attribution Queries](#)
-- [Advanced SQL]
+- [Advanced SQL](https://www.codecademy.com/enrolled/paths/analyze-data-with-sql)
     - [Project:Climate Change](#)
 
 ## Tools
