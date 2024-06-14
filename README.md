@@ -43,18 +43,8 @@ The following Python libraries were used throughout the certification:
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-20232A?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white)
 
-## Projects
-
-- [Analyzing E-commerce Data](#)
-- [Customer Segmentation Analysis](#)
-- [Sales Data Analysis](#)
-- [Employee Performance Analysis](#)
-- [SQL Query Optimization](#)
 
 ## Proof of Certification
 
 ![Codecademy Certificate](https://github.com/hx2163/Codecademy_SQL/blob/main/Codecademy%20Certificate.PNG)
 
----
-
-This repository serves as a comprehensive guide to all the materials and projects completed during the "Analyze Data with SQL Skill Path" certification. For more details or to access the full content, please refer to the specific sections linked above.
