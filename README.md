@@ -15,14 +15,14 @@ This repository contains documentation and resources used to complete the certif
 
 ## Courses
 
-- [1.Getting Started with SQL]([#](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/analyze-data-sql-get-started-with-sql/modules/analyze-data-sql-learn-manipulation-c4b/cheatsheet))
-- [2.Writing Basic Queries](#)
-- [3.Calculating Aggregates](#)
-- [4.Joining Multiple Tables](#)
-- [5.Learn How to Use AI for SQL](#)
-- [6.Going Off-Platform](#)
-- [7.Analyze Real Data with SQL](#)
-- [8.Advanced SQL](#)
+- [Getting Started with SQL](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/analyze-data-sql-get-started-with-sql/modules/analyze-data-sql-learn-manipulation-c4b/cheatsheet)
+- [Writing Basic Queries](#)
+- [Calculating Aggregates](#)
+- [Joining Multiple Tables](#)
+- [Learn How to Use AI for SQL](#)
+- [Going Off-Platform](#)
+- [Analyze Real Data with SQL](#)
+- [Advanced SQL](#)
 
 ## Tools
 
