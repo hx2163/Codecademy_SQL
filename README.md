@@ -21,10 +21,10 @@ This repository contains documentation and resources used to complete the certif
 - [Joining Multiple Tables](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/analyze-data-sql-join-data/modules/analyze-data-sql-learn-joins-c4b/cheatsheet)
 - [Learn How to Use AI for SQL](https://www.codecademy.com/learn/paths/analyze-data-with-sql/tracks/learn-how-to-use-ai-for-sql-adws/modules/learn-how-to-use-ai-for-sql-adws/cheatsheet)
 - [Analyze Real Data with SQL](https://www.codecademy.com/enrolled/paths/analyze-data-with-sql)
-    - [Project:Calcalating Churn Rates](#)
-    - [Project:Attribution Queries](#)
+    - [Project: Calcalating Churn Rates](https://github.com/hx2163/Codecademy_SQL/blob/main/Calculating%20Churn%20Rates.md)
+    - [Project: Attribution Queries](https://github.com/hx2163/Codecademy_SQL/blob/main/CoolTShirts_Attribution%20Queries.md)
 - [Advanced SQL](https://www.codecademy.com/enrolled/paths/analyze-data-with-sql)
-    - [Project:Climate Change](#)
+    - [Project: Climate Change](#)
 
 ## Tools
 
