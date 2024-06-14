@@ -24,7 +24,7 @@ This repository contains documentation and resources used to complete the certif
     - [Project: Calcalating Churn Rates](https://github.com/hx2163/Codecademy_SQL/blob/main/Calculating%20Churn%20Rates.md)
     - [Project: Attribution Queries](https://github.com/hx2163/Codecademy_SQL/blob/main/CoolTShirts_Attribution%20Queries.md)
 - [Advanced SQL](https://www.codecademy.com/enrolled/paths/analyze-data-with-sql)
-    - [Project: Climate Change](#)
+    - [Project: Climate Change](https://github.com/hx2163/Codecademy_SQL/blob/main/Climate%20Change.md)
 
 ## Tools
 
