@@ -55,7 +55,7 @@ The following Python libraries were used throughout the certification:
 
 To verify the certificates, click the image to follow the link.
 
-[![Codecademy Certificate]([[https://www.codecademy.com/resources/blog/content/images/2021/05/certificate-01.png)](https://www.codecademy.com/profiles/YourProfile/certificates/6631BCD87F](https://www.codecademy.com/profiles/course2140647429/certificates/5cafb2d937090210d7df3652)](https://github.com/hx2163/Codecademy_SQL/blob/main/Codecademy%20Certificate.PNG))
+[![Codecademy Certificate](https://github.com/hx2163/Codecademy_SQL/blob/main/Codecademy%20Certificate.PNG)]
 
 ---
 
